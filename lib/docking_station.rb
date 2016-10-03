@@ -4,7 +4,7 @@ class DockingStation
   attr_reader :bike
 
   def release_bike
-    Bike.new
+    raise 'Infinite bikes'
   end
 
   def dock_bike(bike)
